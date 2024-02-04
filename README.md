@@ -1,4 +1,60 @@
-# IES
+# IES Code System
+
+This repository contains the code for the Intelligent Evacuation System (IES). The system uses a Raspberry Pi 3 shield with various sensors to detect hazardous conditions and initiate an evacuation procedure.
+
+## Dependencies
+
+The code uses the following Python libraries:
+- PCF8591
+- RPi.GPIO
+- time
+- LCD1602
+- playsound
+- telepot
+- pydub
+
+## Setup
+
+1. Clone this repository to your Raspberry Pi.
+2. Install the required Python libraries.
+3. Run the script.
+
+## How it Works
+
+The script continuously monitors the readings from the gas and flame sensors. If the readings exceed a certain threshold, the system activates the evacuation procedure. This includes sending a message to a Telegram bot, activating an alarm, and displaying a message on an LCD screen.
+
+## Contact
+
+If you have any questions or issues, feel free to reach out.
+///////////////////////////////////////////////////////////////////////
+# People Counter System
+
+This repository contains the code for a people counter system. The system uses the YOLO model for object detection and tracking to count the number of people entering and exiting a room.
+
+## Dependencies
+
+The code uses the following Python libraries:
+- cv2
+- pandas
+- ultralytics
+- tracker
+- cvzone
+
+## Setup
+
+1. Clone this repository to your machine.
+2. Install the required Python libraries.
+3. Run the script.
+
+## How it Works
+
+The script continuously captures frames from a video file and uses the YOLO model to detect people in each frame. It then tracks each person and counts the number of people entering and exiting the room based on their movement.
+
+## Contact
+
+If you have any questions or issues, feel free to reach out.
+
+//////////////////////////////////////////////////////////////////////////////////////////
 IES
 Project Summary: Intelligent Evacuation System (IES)
 
